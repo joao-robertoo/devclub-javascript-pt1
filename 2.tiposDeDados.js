@@ -1,15 +1,16 @@
 /* 
 
 1. String -> Textos
+2. Numbers -> Números
 
 */
 
-const myAge = 29
-const myCar = 'Audi'
+const numer1 = 29 / 2
+const fakeNumber = "32 / 2"
 
-const myString = `Minha idade é ${myAge}, to ficando velho. Mas pelo menos to andando de ${myCar}` // Templeta Literals
-
-console.log(myString);
-
+* // Multiplicação
+/ // Divisão
++ // Soma
+- // Subtração
 
 
