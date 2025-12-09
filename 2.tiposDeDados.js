@@ -4,19 +4,14 @@
 2. Numbers -> Números
 3. Boolean -> Boleano 
 4. Object -> Objetos
+5. Null & Undefined
 
 */
 
-const joao = { 
+const user = { 
     name: "Joao",
     age: 30,
-    address: {
-        street: "Dos Bobos",
-        number: 0,
-        city: "São Paulo",
-        state: "SP",
-        country: "Brasil"
-    }
+    nomeDoConjuge: "Jessica",
+    id: null
 }
-
-console.log(joao.address);
+console.log(user.id)
