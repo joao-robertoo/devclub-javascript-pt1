@@ -2,15 +2,21 @@
 
 1. String -> Textos
 2. Numbers -> Números
+3. Boolean -> Boleano 
+4. Object -> Objetos
 
 */
 
-const numer1 = 29 / 2
-const fakeNumber = "32 / 2"
+const joao = { 
+    name: "Joao",
+    age: 30,
+    address: {
+        street: "Dos Bobos",
+        number: 0,
+        city: "São Paulo",
+        state: "SP",
+        country: "Brasil"
+    }
+}
 
-* // Multiplicação
-/ // Divisão
-+ // Soma
-- // Subtração
-
-
+console.log(joao.address);
