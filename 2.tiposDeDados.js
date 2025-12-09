@@ -4,12 +4,12 @@
 
 */
 
-const texto1 = "Textos com aspas 'duplas'" /* não consigo pular linhas */
-const texto2 = 'Textos com aspas "simples"' /* não consigo pular linhas */
-const texto3 = `Textos com a crase` /* consigo pular linhas */
+const myAge = 29
+const myCar = 'Audi'
 
-console.log(texto1);
-console.log(texto2);
-console.log(texto3);
+const myString = `Minha idade é ${myAge}, to ficando velho. Mas pelo menos to andando de ${myCar}` // Templeta Literals
+
+console.log(myString);
+
 
 
